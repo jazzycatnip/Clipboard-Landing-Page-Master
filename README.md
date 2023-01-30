@@ -15,12 +15,12 @@ I started by adding some basic formatting, most of the colors are provided in th
 Currently focusing on the Desktop version. 
 
 Current Elements in Progress:
-  -iOS Button formatting
+  - iOS Button formatting
     Basic color and style - Complete
     Box Shadow - Complete
     Font Formatting - In Progress
     Padding - In Progress
-  -Mac Button formatting
+  - Mac Button formatting
     Basic color and style- Complete
     Box Shadow - In Progress
     Font Formatting - In Progress
