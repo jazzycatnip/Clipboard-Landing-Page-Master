@@ -1,0 +1,132 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Strong Cyan: hsl(171, 66%, 44%) ios button
+- Light Blue: hsl(233, 100%, 69%) mac button
+
+### Neutral
+
+- Dark Grayish Blue: hsl(210, 10%, 33%) body text
+- Grayish Blue: hsl(201, 11%, 66%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 18px
+
+### Fonts
+
+- Family: [Bai Jamjuree](https://fonts.google.com/specimen/Bai+Jamjuree)
+- Weights: 400, 600
+
+## Icons
+
+For the social icons, you can use the SVGs provided or a font icon library. Some font icon library suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com)
+- [IcoMoon](https://icomoon.io)
+- [Ionicons](https://ionicons.com) */
+
+/**********Tag Selectors**********/
+
+body {
+    color: hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree', san-serif;
+    font-kerning: none;
+    font-size: 24px;
+    text-align: center;
+    margin: 0px;
+    }
+
+h1 {
+    font-size: 45px;
+    margin: 2.25rem auto 1rem auto;
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+    font-size: 20px;
+    
+    line-height: 1.5;
+    margin: auto;
+    width: 50%;
+}
+
+
+/**********Class Selectors**********/
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.header {
+    background: linear-gradient(to bottom, transparent, 90%, white), url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    
+}
+
+.image-logo {
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+}
+
+.ios-btn {
+    border: solid hsl(171, 66%, 44%) 2px;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    -webkit-box-shadow: 0px 1px 2px hsl(171, 66%, 38%);
+    -moz-box-shadow: 0px 1px 2px hsl(171, 66%, 38%);
+    box-shadow: 0px 1px 0px 2px hsl(171, 66%, 38%);
+    color: #ffffff;
+    font-size: 18px;
+    font-stretch: expanded;
+    font-weight: 400;
+    background: hsl(171, 66%, 44%);
+    padding: 13px 30px 13px 30px;
+    text-decoration: none;
+}
+
+.ios-btn:hover {
+    background: hsl(171, 66%, 44%);
+    text-decoration: none;
+  }
+
+.mac-btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    -webkit-box-shadow: 0px 1px 0px hsl(233, 100%, 69%);
+    -moz-box-shadow: 0px 1px 0px hsl(233, 100%, 69%);
+    box-shadow: 0px 1px 0px hsl(233, 100%, 69%);
+    color: #ffffff;
+    font-size: 20px;
+    background: hsl(233, 100%, 69%);
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+}
+
+.mac-btn:hover {
+    background: hsl(233, 100%, 69%);
+    text-decoration: none;
+  }
+
+  .text-intro {
+    margin-bottom: 3rem;
+    margin-top: 0rem;
+  }
