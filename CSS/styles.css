@@ -75,7 +75,7 @@ p {
 }
 
 .header {
-    background: linear-gradient(to bottom, transparent, 90%, white), url(images/bg-header-desktop.png);
+    background: /* linear-gradient(to bottom, transparent, 90%, white), */ url(images/bg-header-desktop.png);
     background-repeat: no-repeat;
     
 }
