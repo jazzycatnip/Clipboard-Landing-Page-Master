@@ -16,13 +16,13 @@ Currently focusing on the Desktop version.
 
 Current Elements in Progress:
   - iOS Button formatting
-    Basic color and style - Complete
-    Box Shadow - Complete
-    Font Formatting - In Progress
-    Padding - In Progress
+    - Basic color and style - Complete
+    - Box Shadow - Complete
+    - Font Formatting - In Progress
+    - Padding - In Progress
   - Mac Button formatting
-    Basic color and style- Complete
-    Box Shadow - In Progress
-    Font Formatting - In Progress
-    Padding - In Progress
+    - Basic color and style- Complete
+    - Box Shadow - In Progress
+    - Font Formatting - In Progress
+    - Padding - In Progress
     
