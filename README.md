@@ -34,7 +34,7 @@ Elements that are complete:
     - Box Shadow
     - Font Formatting
     - Padding 
-  - Line Spacing and font size for h2, <p> elements
+  - Line Spacing and font size for h2, p elements
 
   
   Up Next: 
