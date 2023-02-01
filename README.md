@@ -14,15 +14,31 @@ My Process:
 I started by adding some basic formatting, most of the colors are provided in the Style Guide, which can be found at the top of my CSS file.
 Currently focusing on the Desktop version. 
 
-Current Elements in Progress:
+Elements that are complete:
+  - Link style sheet, font info, icon
+  - Set up base accessibility, section text into head/body/footer
+  - Add element tags to provided text
+  - Insert images
+  - Add specs to style sheet and format base elements
+  - Header formating
+    - Create CSS/images and link background
+    - Format Logo
+  - Format intro text and headline
   - iOS Button formatting
-    - Basic color and style - Complete
-    - Box Shadow - Complete
-    - Font Formatting - In Progress
-    - Padding - In Progress
+    - Basic color and style
+    - Box Shadow
+    - Font Formatting
+    - Padding
   - Mac Button formatting
-    - Basic color and style- Complete
-    - Box Shadow - In Progress
-    - Font Formatting - In Progress
-    - Padding - In Progress
+    - Basic color and style
+    - Box Shadow
+    - Font Formatting
+    - Padding 
+  - Line Spacing and font size for h2, <p> elements
+
+  
+  Up Next: 
+  - Float image and align text
+  - Add divs/classes and tweak margins/padding for formating
+   
     
