@@ -1,0 +1,162 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Strong Cyan: hsl(171, 66%, 44%) ios button
+- Light Blue: hsl(233, 100%, 69%) mac button
+
+### Neutral
+
+- Dark Grayish Blue: hsl(210, 10%, 33%) body text
+- Grayish Blue: hsl(201, 11%, 66%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 18px
+
+### Fonts
+
+- Family: [Bai Jamjuree](https://fonts.google.com/specimen/Bai+Jamjuree)
+- Weights: 400, 600
+
+## Icons
+
+For the social icons, you can use the SVGs provided or a font icon library. Some font icon library suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com)
+- [IcoMoon](https://icomoon.io)
+- [Ionicons](https://ionicons.com) */
+
+/**********Tag Selectors**********/
+
+/*body {
+    color: hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree', san-serif;
+    letter-spacing: .04rem;
+    font-size: 24px;
+    text-align: center;
+    margin: 0px;
+    width: 1440px;
+    }*/
+
+h1 {
+    font-size: 45px;
+    letter-spacing: -.0155rem;
+    margin: 2.25rem auto 1rem auto;
+}
+
+h2 {
+    font-size: 34.667px;
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    letter-spacing: .00875rem;
+    line-height: 1.65;
+    margin: auto;
+    width: 49%;
+}
+
+
+/**********Class Selectors**********/
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.body {
+    color: hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree', san-serif;
+    font-size: 24px;
+    text-align: center;
+    margin: 0px;
+    width: 1440px;
+}
+
+.buttons {
+    margin: 3.6rem auto 10.35rem auto;
+}
+
+.header {
+    background: linear-gradient(to bottom, transparent, 90%, white), url(images/bg-header-desktop.png);
+    background-repeat: repeat-x;
+    text-align: center;
+    margin: 0px;
+    width: 1440px;
+}
+
+.h2-keep-track {
+    margin-bottom: 1.3rem;
+}
+
+.image-logo {
+    margin: 8rem auto 1rem auto;
+}
+
+.ios-btn {
+    background: hsl(171, 66%, 44%);
+    border: solid hsl(171, 66%, 44%) 1px;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;  
+    -webkit-box-shadow: 0px 3px 0px #219f88, 0px 10px 10px 2px #cdf5ea;
+    -moz-box-shadow: 0px 3px 0px #219f88, 0px 10px 10px 2px #cdf5ea;
+    box-shadow: 0px 3px 0px #219f88, 0px 10px 10px 2px #cdf5ea;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 15px 36px 12px 34px;
+    text-decoration: none;
+}
+
+.ios-btn:hover {
+    background: hsl(171, 66%, 44%);
+    text-decoration: none;
+  }
+
+.mac-btn {
+    background: hsl(233, 100%, 69%);
+    border: solid hsl(233, 100%, 69%) 1px;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    -webkit-box-shadow: 0px 3px 0px #5161d8, 0px 10px 10px 2px #e9eaeb;
+    -moz-box-shadow: 0px 3px 0px #5161d8, 0px 10px 10px 2px #e9eaeb;
+    box-shadow: 0px 3px 0px #5161d8, 0px 10px 10px 2px #e9eaeb;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 600;
+    margin-left: .6rem;
+    padding: 15px 34px 12px 31px;
+    text-decoration: none;
+}
+
+.mac-btn:hover {
+    background: hsl(233, 100%, 69%);
+    text-decoration: none;
+  }
+
+  .text-intro {
+    color: hsl(201, 11%, 66%);
+    font-size: 19px;
+    letter-spacing: .0375rem;
+    line-height: 1.6;
+    margin-bottom: 3.675rem;
+    margin-top: 0rem;
+  }
