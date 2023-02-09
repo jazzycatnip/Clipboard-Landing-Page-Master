@@ -35,6 +35,9 @@ Elements that are complete:
     - Font Formatting
     - Padding 
   - Line Spacing and font size for h2, p elements
+  - h2, p, button elements margins, letter spacing, line height
+  - Secondary Box Shadows for Buttons
+  - Fixed bug created by using text-align: center on the body class that forced Designer Tools Chrome Plug in to center the left edge of the top rule
 
   
   Up Next: 
